@@ -26,7 +26,9 @@ https://github.com/domahidizoltan/bullshit-bingo
 # Struktur und Aufbau
 
 ```
-../buzzword-bingo
+buzzword-bingo/
+├── index.html
+├── README.md
 ├── cards
 │   ├── buzzword
 │   │   ├── bingo.mp3
@@ -49,21 +51,19 @@ https://github.com/domahidizoltan/bullshit-bingo
 │       └── en
 │           ├── index.html
 │           └── words.js
-├── files
-│   ├── css
-│   │   ├── dcmc.css
-│   │   ├── freeze.css
-│   │   └── standard.css
-│   ├── js
-│   │   ├── content16.js
-│   │   ├── content24.js
-│   │   ├── content25.js
-│   │   ├── game16.js
-│   │   └── game.js
-│   └── media
-│       └── bingo.mp3
-├── index.html
-└── README.md
+└── files
+    ├── css
+    │   ├── dcmc.css
+    │   ├── freeze.css
+    │   └── standard.css
+    ├── js
+    │   ├── content16.js
+    │   ├── content24.js
+    │   ├── content25.js
+    │   ├── game16.js
+    │   └── game.js
+    └── media
+        └── bingo.mp3
 ```
 
 ## Verzeichnis parts
