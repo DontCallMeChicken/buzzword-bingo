@@ -116,7 +116,7 @@ If you want to use the standard stylesheet, it is sufficient to comment out the 
 ### Audio sample file
 "Blop sound" by [helloIJustWantSomeSounds](https://freesound.org/s/609207/) at [Freesound](https://freesound.org/) under [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) License.
 
-## Summary
+# Summary
 
 Only required files:
 ```
@@ -139,7 +139,7 @@ buzzword-bingo/
         └── words.js
 ```
 
-
+Complete directory structure:
 ```
 buzzword-bingo/
 ├── index.html
