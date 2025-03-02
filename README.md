@@ -111,10 +111,34 @@ This ensures that the bingo card is always displayed correctly.
 
 If you want to use the standard stylesheet, it is sufficient to comment out the second CSS file.
 
-# Audio
+## Audio
 
-## Audio sample file
+### Audio sample file
 "Blop sound" by [helloIJustWantSomeSounds](https://freesound.org/s/609207/) at [Freesound](https://freesound.org/) under [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) License.
+
+## Summary
+
+Only required files:
+```
+buzzword-bingo/
+└── cards
+    └── mybingo
+        ├── index.html
+        └── words.js
+```
+
+Including all optional files:
+```
+buzzword-bingo/
+└── cards
+    └── mybingo
+        ├── bingo.mp3
+        ├── index.html
+        ├── index24.html
+        ├── index25.html
+        └── words.js
+```
+
 
 ```
 buzzword-bingo/
@@ -154,6 +178,3 @@ buzzword-bingo/
     └── media
         └── bingo.mp3
 ```
-
-# Audio
-
