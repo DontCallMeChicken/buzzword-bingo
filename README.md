@@ -145,6 +145,8 @@ buzzword-bingo/
 ├── index.html
 ├── cards
 │   ├── buzzword
+│   │   ├── index24.html
+│   │   ├── index25.html
 │   │   ├── index.html
 │   │   └── words.js
 │   ├── dcmc
