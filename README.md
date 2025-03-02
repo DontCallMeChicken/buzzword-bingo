@@ -5,6 +5,18 @@ https://github.com/domahidizoltan/bullshit-bingo
 
 ## General directory structure
 
+```
+buzzword-bingo/
+├── index.html
+├── cards
+│   └── buzzword
+│   └── mybingo
+└── files
+    ├── css
+    ├── js
+    └── media
+```
+
 + `index.html` – Home page with list of bingo cards
 + `cards` – Folder containing the bingo cards (each in its own subdirectory)
 + `files` – Globally used files
@@ -12,17 +24,6 @@ https://github.com/domahidizoltan/bullshit-bingo
   - `js` – JavaScript game files
   - `media` – Audio file
  
-```
-buzzword-bingo/
-├── index.html
-├── cards
-│   └── buzzword
-└── files
-    ├── css
-    ├── js
-    └── media
-```
-
 ## Bingo card
 Create a new directory under the cards directory and copy existing sample files into the new directory.
 Or copy an existing sample directory with existing files.
@@ -56,6 +57,17 @@ There are three variations of the bingo grid, with different numbers of playable
 + `index24.html` – 5x5 grid, 25 fields, one free (24 actively playable)
 + `index25.html` – 5x5 grid, 25 fields
 
+```
+buzzword-bingo/
+└── files
+    └── js
+        ├── content16.js
+        ├── content24.js
+        ├── content25.js
+        ├── game16.js
+        └── game.js
+```
+
 The `index.html` uses the `game16.js` and the `content16.js` for the bingo game.
 
 The `index24.html` and `index.25.html` use the `game.js` and the appropriate content JavaScript file for the bingo game.
@@ -84,7 +96,6 @@ If you want to use the standard stylesheet, it is sufficient to comment out the 
 ```
 buzzword-bingo/
 ├── index.html
-
 ├── cards
 │   ├── buzzword
 │   │   ├── index.html
@@ -106,7 +117,6 @@ buzzword-bingo/
 │       └── en
 │           ├── index.html
 │           └── words.js
-
 └── files
     ├── css
     │   ├── dcmc.css
