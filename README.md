@@ -2,7 +2,7 @@ The project is a copy of bullshit-bingo:
 https://github.com/domahidizoltan/bullshit-bingo
 
 
-> Bullshit Bingo
+> **Bullshit Bingo**
 > 
 > This is an offline copy of the Bullshit Bingo game from the [Bullshit Bingo site](https://www.bullshitbingo.net/).  
 >
@@ -28,7 +28,18 @@ https://github.com/domahidizoltan/bullshit-bingo
 ```
 buzzword-bingo/
 ├── index.html
-├── README.md
+├── cards
+│   └── buzzword
+└── files
+    ├── css
+    ├── js
+    └── media
+```
+
+
+```
+buzzword-bingo/
+├── index.html
 ├── cards
 │   ├── buzzword
 │   │   ├── bingo.mp3
