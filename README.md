@@ -9,8 +9,12 @@ https://github.com/domahidizoltan/bullshit-bingo
 buzzword-bingo/
 ├── index.html
 ├── cards
-│   └── buzzword
+│   ├── buzzword
+│   │   ├── index.html
+│   │   └── words.js
 │   └── mybingo
+│       ├── index.html
+│       └── words.js
 └── files
     ├── css
     ├── js
@@ -24,7 +28,7 @@ buzzword-bingo/
   - `js` – JavaScript game files
   - `media` – Audio file
  
-## Bingo card
+## Bingo cards
 Create a new directory under the cards directory and copy existing sample files into the new directory.
 Or copy an existing sample directory with existing files.
 
@@ -33,8 +37,19 @@ Required files
 + `index.html`
 + `words.js`
 
-Replace the words in the `words.js` file with your own ones. Keep the first and last line!
+```
+buzzword-bingo/
+├── index.html
+└── cards
+    ├── buzzword
+    │   ├── index.html
+    │   └── words.js
+    └── mybingo
+        ├── index.html
+        └── words.js
+```
 
+Replace the words in the `words.js` file with your own ones. Keep the first and last line!  
 Like this:
 
 ```
@@ -57,7 +72,7 @@ There are three variations of the bingo grid, with different numbers of playable
 + `index24.html` – 5x5 grid, 25 fields, one free (24 actively playable)
 + `index25.html` – 5x5 grid, 25 fields
 
-**JavaScript Game Files**
+**JavaScript game files**
 
 ```
 buzzword-bingo/
