@@ -57,6 +57,8 @@ There are three variations of the bingo grid, with different numbers of playable
 + `index24.html` – 5x5 grid, 25 fields, one free (24 actively playable)
 + `index25.html` – 5x5 grid, 25 fields
 
+**JavaScript Game Files**
+
 ```
 buzzword-bingo/
 └── files
