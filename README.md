@@ -39,7 +39,6 @@ Required files
 
 ```
 buzzword-bingo/
-├── index.html
 └── cards
     ├── buzzword
     │   ├── index.html
