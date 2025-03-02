@@ -1,6 +1,7 @@
+# Buzzword Bingo
+
 The project is a copy of bullshit-bingo:
 https://github.com/domahidizoltan/bullshit-bingo
-
 
 > **Bullshit Bingo**
 > 
@@ -20,8 +21,6 @@ https://github.com/domahidizoltan/bullshit-bingo
 >
 > Open the `index.html` in a browser. Every time you refresh the page it will generate a new Bingo card.  
 > Print it or play it on your laptop. Have fun!
-
-
 
 # Struktur und Aufbau
 
@@ -98,3 +97,5 @@ In dem Verzeichnis `cards` liegen alle Bingokarten in je einem eigenen Verzeichn
 ### Verzeichnis files
 - `style.css`
 
+## Audio
+"Blop sound" by [helloIJustWantSomeSounds](https://freesound.org/s/609207/) at [Freesound](https://freesound.org/) under [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) License.
