@@ -3,27 +3,15 @@
 The project is a copy of bullshit-bingo:
 https://github.com/domahidizoltan/bullshit-bingo
 
-> **Bullshit Bingo**
-> 
-> This is an offline copy of the Bullshit Bingo game from the [Bullshit Bingo site](https://www.bullshitbingo.net/).  
->
-> Replace the words in the `words.js` file with your own ones. Keep the first and last line!
->
-> Like this:
-> ```
-> const words = `
->
-> Here comes your own bullshits
-> Each one goes in a separate line
->
-> `;
-> ```
->
-> Open the `index.html` in a browser. Every time you refresh the page it will generate a new Bingo card.  
-> Print it or play it on your laptop. Have fun!
+## General directory structure
 
-# Struktur und Aufbau
-
++ `index.html` – Home page with list of bingo cards
++ `cards` – Folder containing the bingo cards (each in its own subdirectory)
++ `files` – Globally used files
+  - `css` – Stylecheets
+  - `js` – JavaScript game files
+  - `media` – Audio file
+ 
 ```
 buzzword-bingo/
 ├── index.html
@@ -35,13 +23,70 @@ buzzword-bingo/
     └── media
 ```
 
+## Bingo card
+Create a new directory under the cards directory and copy existing sample files into the new directory.
+Or copy an existing sample directory with existing files.
+
+Required files
+
++ `index.html`
++ `words.js`
+
+Replace the words in the `words.js` file with your own ones. Keep the first and last line!
+
+Like this:
+
+```
+const words = `
+
+Here comes your own words
+Each one goes in a separate line
+
+`;
+```
+
+Open the `index.html` from the bingo card directory in a browser or add a link to the list of bingo cards in the `index.html` of the root directory.
+Every time you refresh the page it will generate a new Bingo card.
+
+### Bingo fields
+
+There are three variations of the bingo grid, with different numbers of playable fields.
+
++ `index.html` – 4x4 grid, 16 fields
++ `index24.html` – 5x5 grid, 25 fields, one free (24 actively playable)
++ `index25.html` – 5x5 grid, 25 fields
+
+The `index.html` uses the `game16.js` and the `content16.js` for the bingo game.
+
+The `index24.html` and `index.25.html` use the `game.js` and the appropriate content JavaScript file for the bingo game.
+
+## Layout
+
+There are stylecheet files that can be used globally.
+Otherwise, you can copy one of the existing stylecheet files into the directory of the bingo card, rename it to `style.css` and adapt it.
+You can also create your own stylesheet in the `files/css` directory to use it globally.
+
+Within the `index.html` file for the bingo card, the following sequence is automatically loaded:
+
+1. `files/css/standard.css`
+2. `files/css/dcmc.css`  
+or another predefined stylesheet file from the global directory
+3. `style.css`
+
+The last specified file that could be loaded is used.
+This ensures that the bingo card is always displayed correctly.
+
+If you want to use the standard stylesheet, it is sufficient to comment out the second CSS file.
+
+### Audio
+
 
 ```
 buzzword-bingo/
 ├── index.html
+
 ├── cards
 │   ├── buzzword
-│   │   ├── bingo.mp3
 │   │   ├── index.html
 │   │   └── words.js
 │   ├── dcmc
@@ -61,6 +106,7 @@ buzzword-bingo/
 │       └── en
 │           ├── index.html
 │           └── words.js
+
 └── files
     ├── css
     │   ├── dcmc.css
@@ -76,26 +122,5 @@ buzzword-bingo/
         └── bingo.mp3
 ```
 
-## Verzeichnis parts
-Das Verzeichnis `parts` beinhaltet die JavaScript Dateien, die zum generieren und spielen der jeweiligen Bingokarten benötigt werden:
-
-- `content.js`
-- `game.js`
-
-Im selben Verzeichnis befindet sich auch eine Standard Stylecheet Datei, die u.a. die Bingokarte `buzzword` verwendet.
-
-## Verzeichnis cards
-In dem Verzeichnis `cards` liegen alle Bingokarten in je einem eigenen Verzeichnis, benannt nach dem jeweiligen Bingo-Thema.
-
-### Struktur Bingo-Verzeichnis
-
-- `index.html`
-- `words.js`
-- `style.css` (optional)
-- `bingo.mp3` oder `bingo.ogg` (optional)
-
-### Verzeichnis files
-- `style.css`
-
-## Audio
+# Audio
 "Blop sound" by [helloIJustWantSomeSounds](https://freesound.org/s/609207/) at [Freesound](https://freesound.org/) under [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) License.
