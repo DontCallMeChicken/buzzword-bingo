@@ -24,7 +24,7 @@ buzzword-bingo/
   - `js` – JavaScript game files
   - `media` – Audio file
  
-## Bingo cards
+# Bingo cards
 Create a new directory under the cards directory and copy existing sample files into the new directory.
 Or copy an existing sample directory with existing files.
 
@@ -59,7 +59,7 @@ Each one goes in a separate line
 Open the `index.html` from the bingo card directory in a browser or add a link to the list of bingo cards in the `index.html` of the root directory.
 Every time you refresh the page it will generate a new Bingo card.
 
-### Bingo fields
+## Bingo fields
 
 There are three variations of the bingo grid, with different numbers of playable fields.
 
@@ -67,7 +67,7 @@ There are three variations of the bingo grid, with different numbers of playable
 + `index24.html` – 5x5 grid, 25 fields, one free (24 actively playable)
 + `index25.html` – 5x5 grid, 25 fields
 
-**JavaScript game files**
+### JavaScript game files
 
 ```
 buzzword-bingo/
@@ -111,8 +111,10 @@ This ensures that the bingo card is always displayed correctly.
 
 If you want to use the standard stylesheet, it is sufficient to comment out the second CSS file.
 
-### Audio
+# Audio
 
+## Audio sample file
+"Blop sound" by [helloIJustWantSomeSounds](https://freesound.org/s/609207/) at [Freesound](https://freesound.org/) under [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) License.
 
 ```
 buzzword-bingo/
@@ -154,4 +156,4 @@ buzzword-bingo/
 ```
 
 # Audio
-"Blop sound" by [helloIJustWantSomeSounds](https://freesound.org/s/609207/) at [Freesound](https://freesound.org/) under [Creative Commons 0](https://creativecommons.org/publicdomain/zero/1.0/) License.
+
