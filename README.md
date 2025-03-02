@@ -10,11 +10,7 @@ buzzword-bingo/
 ├── index.html
 ├── cards
 │   ├── buzzword
-│   │   ├── index.html
-│   │   └── words.js
 │   └── mybingo
-│       ├── index.html
-│       └── words.js
 └── files
     ├── css
     ├── js
@@ -93,6 +89,15 @@ The `index24.html` and `index.25.html` use the `game.js` and the appropriate con
 There are stylecheet files that can be used globally.
 Otherwise, you can copy one of the existing stylecheet files into the directory of the bingo card, rename it to `style.css` and adapt it.
 You can also create your own stylesheet in the `files/css` directory to use it globally.
+
+```
+buzzword-bingo/
+└── files
+    └── css
+        ├── dcmc.css
+        ├── freeze.css
+        └── standard.css
+```
 
 Within the `index.html` file for the bingo card, the following sequence is automatically loaded:
 
